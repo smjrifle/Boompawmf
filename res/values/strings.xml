@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BathiAma</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Outlet1">Outlet 1</string>
+    <string name="Outlet2">Outlet 2</string>
+    <string name="Outlet3">Outlet 3</string>
+    <string name="Outlet4">Outlet 4</string>
+    <string name="Outlet5">Outlet 5</string>
+	<string name="Outlet6">Outlet 6</string>
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:hapticFeedbackEnabled="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="1dp"
+        >
+
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+		<ImageButton
+		    android:id="@+id/outlet1"
+		    android:layout_width="100dp"
+		    android:layout_height="125dp"
+		    android:layout_marginLeft="5dp"
+		    android:scaleType="fitXY"
+		    android:src="@drawable/off" />
+
+	<TextView
+	    android:id="@+id/textView1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Outlet 1" 
+	    android:paddingLeft="30dp"
+	    />
+	
+	</LinearLayout>
+
+	
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/outlet2"
+      android:layout_width="100dp"
+		    android:layout_height="125dp"
+		    android:layout_marginLeft="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/off" />
+	<TextView
+	    android:id="@+id/textView2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Outlet 2" 
+	    android:paddingLeft="30dp"
+	    />
+	
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+		<ImageButton
+		    android:id="@+id/outlet3"
+		    android:layout_width="100dp"
+		    android:layout_height="125dp"
+		    android:layout_marginLeft="5dp"
+		    android:scaleType="fitXY"
+		    android:src="@drawable/off" />
+
+	<TextView
+	    android:id="@+id/textView3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Outlet 3" 
+	    android:paddingLeft="30dp"
+	    />
+	
+	</LinearLayout>
+
+	</LinearLayout>
+    
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="40dp" 
+       android:layout_marginLeft="1dp">
+
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" 
+	    >
+
+    <ImageButton
+        android:id="@+id/outlet4"
+        android:layout_width="100dp"
+		    android:layout_height="125dp"
+        android:layout_marginLeft="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/off" />
+	<TextView
+	    android:id="@+id/textView4"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Outlet 4" 
+	    android:paddingLeft="30dp"
+	    />
+	
+	</LinearLayout>
+
+	
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/outlet5"
+        android:layout_width="100dp"
+		    android:layout_height="125dp"
+		    android:layout_marginLeft="5dp"
+		    android:scaleType="fitXY"
+       android:src="@drawable/off" />
+	<TextView
+	    android:id="@+id/textView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Outlet 5" 
+	    android:paddingLeft="30dp"
+	    />
+	
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+		<ImageButton
+		    android:id="@+id/outlet6"
+		    android:layout_width="100dp"
+		    android:layout_height="125dp"
+		    android:layout_marginLeft="5dp"
+		    android:scaleType="fitXY"
+		    android:src="@drawable/off" />
+
+	<TextView
+	    android:id="@+id/textView6"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Outlet 6" 
+	    android:paddingLeft="30dp"
+	    />
+	
+	</LinearLayout>
+
+	</LinearLayout>
+
+
+</LinearLayout>
