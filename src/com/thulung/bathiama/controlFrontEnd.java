@@ -48,11 +48,11 @@ public class controlFrontEnd extends Activity implements OnClickListener{
 	 
 	@Override
 	public void onClick(View v) {
-		// TODO Auto-generated method stub
+		
 	switch(v.getId()){
 	
 	case R.id.outlet1:
-		Toast.makeText(getApplicationContext(), "Outlet 1 pressed", Toast.LENGTH_LONG).show();
+		//Toast.makeText(getApplicationContext(), "Outlet 1 pressed", Toast.LENGTH_LONG).show();
 		if(!outlet1_status)
 			outlet1.setImageResource(R.drawable.on);	
 		else 
@@ -60,7 +60,7 @@ public class controlFrontEnd extends Activity implements OnClickListener{
 		outlet1_status=!outlet1_status;
 		break;
 	case R.id.outlet2:
-		Toast.makeText(getApplicationContext(), "Outlet 2 pressed", Toast.LENGTH_LONG).show();
+		//Toast.makeText(getApplicationContext(), "Outlet 2 pressed", Toast.LENGTH_LONG).show();
 		if(!outlet2_status)
 			outlet2.setImageResource(R.drawable.on);	
 		else 
@@ -68,7 +68,7 @@ public class controlFrontEnd extends Activity implements OnClickListener{
 		outlet2_status=!outlet2_status;
 		break;
 	case R.id.outlet3:
-		Toast.makeText(getApplicationContext(), "Outlet 3 pressed", Toast.LENGTH_LONG).show();
+		//Toast.makeText(getApplicationContext(), "Outlet 3 pressed", Toast.LENGTH_LONG).show();
 		if(!outlet3_status)
 			outlet3.setImageResource(R.drawable.on);	
 		else 
@@ -77,7 +77,7 @@ public class controlFrontEnd extends Activity implements OnClickListener{
 		
 		break;
 	case R.id.outlet4:
-		Toast.makeText(getApplicationContext(), "Outlet 4 pressed", Toast.LENGTH_LONG).show();
+		//Toast.makeText(getApplicationContext(), "Outlet 4 pressed", Toast.LENGTH_LONG).show();
 		if(!outlet4_status)
 			outlet4.setImageResource(R.drawable.on);	
 		else 
@@ -86,7 +86,7 @@ public class controlFrontEnd extends Activity implements OnClickListener{
 		break;
 		
 	case R.id.outlet5:
-		Toast.makeText(getApplicationContext(), "Outlet 5 pressed", Toast.LENGTH_LONG).show();
+		//Toast.makeText(getApplicationContext(), "Outlet 5 pressed", Toast.LENGTH_LONG).show();
 		if(!outlet5_status)
 			outlet5.setImageResource(R.drawable.on);	
 		else 
@@ -94,7 +94,7 @@ public class controlFrontEnd extends Activity implements OnClickListener{
 		outlet5_status=!outlet5_status;
 		break;
 	case R.id.outlet6:
-		Toast.makeText(getApplicationContext(), "Outlet 6 pressed", Toast.LENGTH_LONG).show();
+		//Toast.makeText(getApplicationContext(), "Outlet 6 pressed", Toast.LENGTH_LONG).show();
 		if(!outlet6_status)
 			outlet6.setImageResource(R.drawable.on);	
 		else 
