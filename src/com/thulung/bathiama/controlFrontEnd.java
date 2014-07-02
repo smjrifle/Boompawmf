@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 public class controlFrontEnd extends Activity implements OnClickListener{
 	
@@ -82,7 +81,9 @@ public class controlFrontEnd extends Activity implements OnClickListener{
 			outlet4.setImageResource(R.drawable.on);	
 		else 
 			outlet4.setImageResource(R.drawable.off);
-		outlet4_status=!outlet1_status;
+		
+		outlet4_status=!outlet4_status;
+		
 		break;
 		
 	case R.id.outlet5:
